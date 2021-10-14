@@ -1,0 +1,100 @@
+body {
+    font-family: 'Merriweather';
+    margin: 0;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+#top {
+    background: #2CAAE1;
+    color: white;
+    text-align: center;
+    padding: 7px 10px 9px 20px;
+    margin-bottom: 30px;
+}
+
+#top h1 {
+    margin-bottom: 10px;
+}
+
+#bottom {
+    text-align: center;
+    font-weight: 700;
+    background-color: #bdc3c7;
+    line-height: 30px;
+    margin: 30px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+#main {
+    padding: 0px 320px 0px 40px;
+    line-height: 25px;
+}
+#main h1, #main h2 {
+    margin: 10px 0 15px;
+}
+
+#main img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.keyword {
+    font-size: italic;
+}
+
+
+#sidebar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 270px;
+    font-size: 14px;
+    padding: 18px 40px 20px 20px;
+}
+
+#sidebar h2 {
+    
+}
+
+#sidebar img{
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+a {
+    color: #31DCCB;
+}
+
+a:hover {
+    color: #CCCCFF;
+}
+
+.topnav {
+    background-color: lightblue;
+    height: 62px;
+  }
+  
+.topnav a {
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    padding: 15px 16px;
+    display: block;
+    text-align: center;
+    margin: 0px;
+    font-size: 28px;
+    color: darkviolet;
+    font-weight: 900;
+}
+
+.topnav a:hover {
+    background-color: darkturquoise;
+    color: black;
+  }
